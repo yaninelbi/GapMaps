@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>PhoneGap</title>
+      <link rel="stylesheet" href="master.css" type="text/css" media="screen" title="no title">
+
+      <script type="text/javascript" charset="utf-8" src="cordova-2.0.0.js"></script>
+      <script type="text/javascript" charset="utf-8" src="http://api.tiles.mapbox.com/mapbox.js/v0.6.4/mapbox.js"></script>  
+      <script type="text/javascript" charset="utf-8" src="js/socket.io.min.js"></script>      
+      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0-alpha.1/jquery.mobile-1.2.0-alpha.1.min.css" />
+      <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+      <script src="http://code.jquery.com/mobile/1.2.0-alpha.1/jquery.mobile-1.2.0-alpha.1.min.js"></script>
+
+  </head>
+
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+  <div data-role="page" class="type-interior">
+    <div id="mapDiv"></div>
+    <div id="mapDiv_usr_tracking" style="position:Absolute;boder:1 px solid black;background:purple;z-index:9999999999999999;right:0;bottom:0;display:none;"><a href="" onclick="javascript:mapObj.reset_location();">Reset Location</a></div>
+  </div>
+  <script type="text/javascript" charset="utf-8" src="main.js?gal"></script> 
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "ggp",
+  "subdomain": "ggp",
+  "scripts": {
+    "start": "helloworld/bin/server"
+  },
+  "version": "0.0.0-7",
+  "engines": {
+    "node": "0.8.x"
+  }
+}
